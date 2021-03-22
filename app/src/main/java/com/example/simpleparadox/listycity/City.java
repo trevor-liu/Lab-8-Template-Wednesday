@@ -22,5 +22,5 @@ public class City implements Comparable<City>{
         return city.compareTo(o.getCityName());
     }
 
-    public int addingTwoNumber(int a, int b) { return 0; }
+    public int addingTwoNumber(int a, int b) { return a+b; }
 }
